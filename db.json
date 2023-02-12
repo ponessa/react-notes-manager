@@ -42,5 +42,91 @@
       "created_at": "13/10/2022",
       "id": 11
     }
+  ],
+  "occs": [
+    {
+      "id": "695518Z",
+      "offeringComponentCd": "695518Z",
+      "offeringComponentNm": "DTT: Neudesic Data Svcs-staln",
+      "utLevel10Cd": "10J00",
+      "utLevel10Desc": "IBM Consulting",
+      "utLevel15Cd": "15CPT",
+      "utLevel15Desc": "Business Transformation Services",
+      "utLevel17Cd": "17CBD",
+      "utLevel17Desc": "Data & Technology Transformation",
+      "utLevel20Cd": "20J05",
+      "utLevel20Desc": "Data & Technology Transformation Portfolio",
+      "utLevel30Cd": "30JDT",
+      "utLevel30Desc": "DTT: Neudesic Data Svcs - Standalone",
+      "gbsPracticeCd": "GBS013",
+      "gbsPracticeDesc": "AI & Analytics",
+      "lastUpdatedTms": "2022-08-21T12:21:24"
+    },
+    {
+      "id": "695519R",
+      "offeringComponentCd": "695519R",
+      "offeringComponentNm": "DTT: Neudesic Dta RedHat-staln",
+      "utLevel10Cd": "10J00",
+      "utLevel10Desc": "IBM Consulting",
+      "utLevel15Cd": "15CPT",
+      "utLevel15Desc": "Business Transformation Services",
+      "utLevel17Cd": "17CBD",
+      "utLevel17Desc": "Data & Technology Transformation",
+      "utLevel20Cd": "20J05",
+      "utLevel20Desc": "Data & Technology Transformation Portfolio",
+      "utLevel30Cd": "30J38",
+      "utLevel30Desc": "DTT: Neudesic Data Svcs - Standalone (Red Hat)",
+      "gbsPracticeCd": "GBS013",
+      "gbsPracticeDesc": "AI & Analytics",
+      "lastUpdatedTms": "2022-08-21T12:21:24"
+    },
+    {
+      "id": "695526E",
+      "offeringComponentCd": "695526E",
+      "offeringComponentNm": "DTT: Bluetab Data Svcs-staln",
+      "utLevel10Cd": "10J00",
+      "utLevel10Desc": "IBM Consulting",
+      "utLevel15Cd": "15CPT",
+      "utLevel15Desc": "Business Transformation Services",
+      "utLevel17Cd": "17CBD",
+      "utLevel17Desc": "Data & Technology Transformation",
+      "utLevel20Cd": "20J05",
+      "utLevel20Desc": "Data & Technology Transformation Portfolio",
+      "utLevel30Cd": "30JXK",
+      "utLevel30Desc": "DTT: Bluetab Data Services - Standalone",
+      "gbsPracticeCd": "GBS049",
+      "gbsPracticeDesc": "Data Services",
+      "lastUpdatedTms": "2022-06-13T22:56:00"
+    }
+  ],
+  "data-sources": [
+    {
+      "id": 1,
+      "name": "Offering Components",
+      "description": "A code and description used to track, report and manage several aspects of service contracts. It is utilized principally by GTS, GBS and SWG Services (including Lab Services). Abbreviated: OCC",
+      "owner": "Mickey Cobera",
+      "baseUrl": "http://localhost:8080/api/v1/wfm-dmf-editor/occ-requests"
+    },
+    {
+      "id": 2,
+      "name": "Features",
+      "description": "Feature provides additional details on product sold",
+      "owner": "Gary De gesu",
+      "baseUrl": "http://localhost:8080/api/v1/wfm-dmf-editor/features"
+    },
+    {
+      "id": 3,
+      "name": "Product Identifiers",
+      "description": "Product Id identifies the details product number sold to the customer. A sale usually has several products in the same transaction & invoice",
+      "owner": "Steve Ponessa",
+      "baseUrl": "http://localhost:8080/api/v1/wfm-dmf-editor/product-identifiers"
+    },
+    {
+      "id": 4,
+      "name": "Job Role Specialty",
+      "description": "A specialization of one Job Role. The specialization is based on an industry, platform, product, technology, method, process or solution.",
+      "owner": "Steve Ponessa",
+      "baseUrl": "http://localhost:8080/api/v1/wfm-dmf-editor/jrss"
+    }
   ]
 }
